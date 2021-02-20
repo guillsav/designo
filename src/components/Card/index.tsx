@@ -28,7 +28,7 @@ export const Card = ({ feature, type, title, body, btnText }: Props) => {
             objectFit: 'contain'
           }}>
           <h3 className="uppercase font-medium text-3xl">{feature.name}</h3>
-          <button className="mt-4 flex mx-auto items-center">
+          <button className="mt-4 flex mx-auto items-center focus:outline-none">
             <span className="mr-4 tracking-xl uppercase text-btn-text font-medium">
               view projects
             </span>

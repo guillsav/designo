@@ -4,7 +4,7 @@ import LogoMark from './assets/logo-mark.png';
 
 export const Navbar = () => {
   return (
-    <header className="px-6 xl:px-0 py-9 md:max-w-5xl container md:mx-auto">
+    <header className="px-6 xl:px-0 py-9 md:max-w-5xl container md:mx-auto lg:mt-4  lg:mb-8">
       <nav>
         <div className="flex justify-between items-center">
           <div className="flex items-center">
