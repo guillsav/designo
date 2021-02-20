@@ -40,12 +40,13 @@ export const Card = ({ feature, type, title, body, btnText }: Props) => {
 
   const displayCardElement =
     type === 'display' ? (
-      <div className="w-full px-12 py-16 bg-japonica-500 rounded-xl flex flex-col lg:flex-row lg:justify-between items-center justify-start text-center lg:text-left lg:px-24">
+      <div className="w-full px-10 py-16 bg-japonica-500 rounded-xl flex flex-col lg:flex-row lg:justify-between items-center justify-start text-center lg:text-left lg:px-24">
         <div className="lg:w-1/2 sm:px-16 lg:px-0">
           <Heading
             text={title}
             className="lg:w-3/4 lg:text-left text-4xl text-white font-medium text-center mb-5 font-sans"
           />
+
           <span className="text-base-sm text-white font-sans lg:px-0">
             {body}
           </span>

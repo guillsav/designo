@@ -49,6 +49,9 @@ module.exports = {
     },
     extend: {
       spacing: {
+        18: '72px',
+        22: '86px',
+        42: '166px',
         46: '189px'
       },
       letterSpacing: {

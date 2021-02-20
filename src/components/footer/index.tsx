@@ -3,7 +3,7 @@ import { SocialMedia } from '../svg';
 import LogoMark from './assets/logo-mark.png';
 
 export const Footer = () => (
-  <footer className="bg-shark-500 relative -mt-46 z-0 w-full pt-64 pb-16 px-6">
+  <footer className="bg-shark-500 relative -mt-46  md:-mt-22 lg:-mt-18 z-0 w-full pt-64 md:pt-42 lg:pt-36 pb-16 px-6">
     <div className="md:max-w-5xl container md:mx-auto">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between">
         <h2 className="text logo text-white text-2xl tracking-xl font-bold uppercase flex items-center justify-center">
