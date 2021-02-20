@@ -2,7 +2,7 @@ import { Card } from '../../../../components';
 
 export const GetInTouch = () => {
   return (
-    <div className="relative z-10 w-full mt-32 lg:px-0">
+    <div className="relative px-6 z-10 w-full mt-32 lg:px-0">
       <Card
         type="display"
         title="Let’s talk about your project"
