@@ -6,11 +6,11 @@ export const Footer = () => (
   <footer className="bg-shark-500 relative -mt-46  md:-mt-22 lg:-mt-18 z-0 w-full pt-64 md:pt-42 lg:pt-36 pb-16 px-6">
     <div className="md:max-w-5xl container md:mx-auto">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-        <h2 className="text logo text-white text-2xl tracking-xl font-bold uppercase flex items-center justify-center">
+        <h2 className="font-logo text-white text-2xl tracking-xl font-bold uppercase flex items-center justify-center">
           <img
             src={LogoMark}
             alt="designo logo mark"
-            className="w-6 h-6 mr-3"
+            className="w-6 h-6 mr-3 -mt-1"
           />
           designo
         </h2>
@@ -42,7 +42,6 @@ export const Footer = () => (
         </nav>
       </div>
       <div className="hidden h-px w-full bg-white opacity-10 mt-8 md:block" />
-
       <div className="mt-8 w-full">
         <div className="md:flex md:flex-row md:items-start md:justify-between">
           <div className="text-center mt-10 px-14 md:px-0 md:text-left">

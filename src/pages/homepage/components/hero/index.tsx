@@ -12,7 +12,7 @@ export const Hero = () => {
         <div>
           <Heading
             text="Award-winning custom designs and digital branding solutions"
-            className="text-sans text-white font-medium text-heading-md font-sans md:text-5xl md:px-24 lg:mt-14"
+            className="text-white font-medium text-heading-md font-sans md:text-5xl md:px-24 lg:mt-14"
           />
           <p className="w-full lg:w-11/12 text-white text-base-sm md:text-base mt-8 font-sans md:px-28 lg:px-24">
             <span className="md:px-6 lg:px-0">
