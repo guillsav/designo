@@ -7,18 +7,18 @@ export const features = [
     id: 1,
     name: 'Web Design',
     thumbnail: webImage,
-    to: '/web-design'
+    to: 'web-design'
   },
   {
     id: 2,
     name: 'App Design',
     thumbnail: appImage,
-    to: '/app-design'
+    to: 'app-design'
   },
   {
     id: 3,
     name: 'Graphic Design',
     thumbnail: graphicImage,
-    to: '/graphic-design'
+    to: 'graphic-design'
   }
 ];
