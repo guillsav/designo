@@ -22,7 +22,7 @@ export const Card = ({ feature, type, title, body, btnText }: Props) => {
     feature && type === 'feature' ? (
       <Link to={`/${feature.to}`}>
         <div
-          className="w-full flex flex-col py-32 text-white rounded-xl items-center justify-center h-40 lg:h-full text-center mt-6 md:py-24"
+          className="w-full flex flex-col py-32 text-white rounded-xl items-center justify-center h-40 lg:h-full text-center mt-6 md:py-24 object-cover"
           style={{
             background: `url(${feature.thumbnail}) center/cover no-repeat`,
             objectFit: 'contain'

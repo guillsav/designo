@@ -20,15 +20,15 @@ export const FlexCard = ({
       className={`${
         bg
           ? `${bg} flex justify-center pt-12 rounded-t-2xl md:w-1/2 md:rounded-tr-none md:rounded-bl-2xl lg:rounded-bl-none lg:rounded-tr-2xl lg:w-full lg:h-full`
-          : 'md:w-1/2 lg:w-full'
+          : 'md:w-1/2 lg:w-full lg:h-full'
       }`}>
       <img
         src={thumbnail}
         alt={alt}
         className={`${
           bg
-            ? ''
-            : 'rounded-t-2xl md:w-full md:rounded-tr-none md:rounded-bl-2xl lg:rounded-bl-none lg:rounded-tr-2xl lg:w-full lg:h-full'
+            ? 'lg:w-full lg:h-full object-cover'
+            : 'rounded-t-2xl md:w-full md:rounded-tr-none md:rounded-bl-2xl lg:rounded-bl-none lg:rounded-tr-2xl lg:w-full lg:h-full object-cover'
         }`}
       />
     </div>
