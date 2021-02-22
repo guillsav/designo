@@ -1,4 +1,4 @@
-import { Card, FlexCard, SharedHeader } from '../../components';
+import { Card, FlexCard, SharedHeader, GetInTouch } from '../../components';
 import { appProjects as projects, features } from '../../lib';
 
 export const AppDesign = () => {
@@ -27,19 +27,22 @@ export const AppDesign = () => {
     : null;
 
   return (
-    <div className="md:max-w-5xl container mx-auto md:px-6 xl:px-0">
-      <SharedHeader
-        type="thin"
-        title="App Design"
-        description="Our mobile designs bring intuitive digital solutions
+    <>
+      <div className="md:max-w-5xl container mx-auto md:px-6 xl:px-0">
+        <SharedHeader
+          type="thin"
+          title="App Design"
+          description="Our mobile designs bring intuitive digital solutions
  to your customers right at their fingertips."
-      />
-      <div className="px-6 mt-14 md:px-0 md:mt-23 lg:grid lg:grid-cols-3 gap-8">
-        {projectsElement}
+        />
+        <div className="px-6 mt-14 md:px-0 md:mt-23 lg:grid lg:grid-cols-3 gap-8">
+          {projectsElement}
+        </div>
+        <div className="px-6 md:px-0 mt-24 md:mt-23 lg:flex lg:items-center lg:justify-between">
+          {featuresElement}
+        </div>
       </div>
-      <div className="px-6 md:px-0 mt-24 md:mt-23 lg:flex lg:items-center lg:justify-between">
-        {featuresElement}
-      </div>
-    </div>
+      <GetInTouch />
+    </>
   );
 };
