@@ -48,7 +48,12 @@ module.exports = {
         700: '#161517',
         800: '#111112',
         900: '#0e0e0f'
-      }
+      },
+      tuna: { 500: '#2E3947' },
+      puertoRico: { 500: '#34B7A2' },
+      minsk: { 500: '#3F2F83' },
+      scarletGum: { 500: '#40125A' },
+      solidPink: { 500: '#853A4D' }
     },
     extend: {
       spacing: {
