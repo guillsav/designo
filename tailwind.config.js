@@ -73,10 +73,16 @@ module.exports = {
         'btn-text': ['15px', 'auto']
       },
       width: {
+        'header-l': '635px',
+        'header-img': '476px',
+        '45/2': '52%',
         '48/2': '48.5%'
       },
       height: {
         md: '308px',
+        md1: '320px',
+        md2: '480px',
+        md3: '632px',
         lg: '640px',
         xl: '843px'
       },
