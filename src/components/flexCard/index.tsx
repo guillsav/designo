@@ -20,20 +20,20 @@ export const FlexCard = ({
       className={`${
         bg
           ? `${bg} flex justify-center pt-12 rounded-t-2xl md:w-1/2 md:rounded-tr-none md:rounded-bl-2xl lg:rounded-bl-none lg:rounded-tr-2xl lg:w-full lg:h-full`
-          : null
+          : 'md:w-1/2 lg:w-full'
       }`}>
       <img
         src={thumbnail}
         alt={alt}
         className={`${
-          !bg
-            ? 'rounded-t-2xl md:w-1/2 md:rounded-tr-none md:rounded-bl-2xl lg:rounded-bl-none lg:rounded-tr-2xl lg:w-full lg:h-full'
-            : null
+          bg
+            ? ''
+            : 'rounded-t-2xl md:w-full md:rounded-tr-none md:rounded-bl-2xl lg:rounded-bl-none lg:rounded-tr-2xl lg:w-full lg:h-full'
         }`}
       />
     </div>
 
-    <div className="bg-provincialPink-500 px-10 py-8 rounded-b-2xl flex flex-col items-center justify-start text-center md:w-1/2 md:rounded-bl-none md:rounded-tr-2xl md:items-center md:justify-center lg:rounded-tr-none lg:rounded-bl-2xl lg:w-full lg:px-8">
+    <div className="bg-provincialPink-500 px-10 py-8 rounded-b-2xl flex flex-col items-center justify-start md:w-1/2 text-center md:rounded-bl-none md:rounded-tr-2xl md:items-center md:justify-center lg:rounded-tr-none lg:rounded-bl-2xl lg:w-full lg:px-8">
       <Heading
         text={title}
         className="text-japonica-500 font-medium tracking-xl uppercase md:text-xl"
