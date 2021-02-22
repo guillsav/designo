@@ -55,7 +55,7 @@ export const About = () => {
           </h6>
           <Button
             type="primary"
-            className="bg-japonica-500 text-white uppercase font-medium text-base-sm mt-8"
+            className="bg-japonica-500 text-white uppercase font-medium text-base-sm mt-8 hover:bg-opacity-60 transition-all duration-200"
             text="see location"
           />
         </div>
@@ -66,7 +66,7 @@ export const About = () => {
           </h6>
           <Button
             type="primary"
-            className="bg-japonica-500 text-white uppercase font-medium text-base-sm mt-8"
+            className="bg-japonica-500 text-white uppercase font-medium text-base-sm mt-8 hover:bg-opacity-60 transition-all duration-200"
             text="see location"
           />
         </div>
@@ -77,7 +77,7 @@ export const About = () => {
           </h6>
           <Button
             type="primary"
-            className="bg-japonica-500 text-white uppercase font-medium text-base-sm mt-8"
+            className="bg-japonica-500 text-white uppercase font-medium text-base-sm mt-8 hover:bg-opacity-60 transition-all duration-200"
             text="see location"
           />
         </div>
