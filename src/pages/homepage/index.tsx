@@ -1,4 +1,4 @@
-import { Hero, Features, Values, GetInTouch } from './components';
+import { Hero, Features, Values } from './components';
 
 export const Homepage = () => {
   return (
@@ -6,7 +6,7 @@ export const Homepage = () => {
       <Hero />
       <Features />
       <Values />
-      <GetInTouch />
+      {/* <GetInTouch /> */}
     </div>
   );
 };

@@ -10,6 +10,9 @@ module.exports = {
     },
     colors: {
       white: colors.white,
+      provincialPink: {
+        500: '#FDF3F0'
+      },
       shipGray: {
         50: '#f5f5f5',
         100: '#ebebec',
@@ -52,6 +55,7 @@ module.exports = {
         17: '67px',
         18: '72px',
         22: '86px',
+        23: '88px',
         42: '166px',
         46: '189px'
       },
@@ -62,6 +66,9 @@ module.exports = {
         'heading-md': ['32px', '36px'],
         'base-sm': ['15px', '25px'],
         'btn-text': ['15px', 'auto']
+      },
+      width: {
+        '48/2': '48.5%'
       },
       height: {
         md: '308px',

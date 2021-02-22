@@ -46,7 +46,6 @@ export const Card = ({ feature, type, title, body, btnText }: Props) => {
             text={title}
             className="lg:w-3/4 lg:text-left text-4xl text-white font-medium text-center mb-5 font-sans"
           />
-
           <span className="text-base-sm text-white font-sans lg:px-0">
             {body}
           </span>
