@@ -1,8 +1,8 @@
-import { Card } from '../Card';
+import { Card } from '../card';
 
 export const GetInTouch = () => {
   return (
-    <div className="relative md:max-w-5xl container md:mx-auto px-6 z-10 w-full mt-32 xl:px-0">
+    <div className="container relative z-10 w-full px-6 mt-32 md:max-w-5xl md:mx-auto xl:px-0">
       <Card
         type="display"
         title="Let’s talk about your project"

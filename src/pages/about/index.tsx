@@ -48,8 +48,8 @@ export const About = () => {
           </div>
         </div>
 
-        <div className="mt-32 px-6 flex flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between">
-          <div className="w-full flex flex-col items-center text-center">
+        <div className="mt-32 px-6 flex flex-col items-center justify-center lg:flex-row lg:items-center lg:justify-between lg:px-0">
+          <div className="w-full flex flex-col items-center text-center lg:w-1/3">
             <CanadaIcon />
             <h6 className="text-xl text-shipGray-500 tracking-xl font-medium uppercase mt-12">
               Canada
@@ -60,7 +60,7 @@ export const About = () => {
               text="see location"
             />
           </div>
-          <div className="w-full flex flex-col items-center text-center mt-12 lg:mt-0">
+          <div className="w-full flex flex-col items-center text-center mt-12 lg:mt-0 lg:w-1/3">
             <AustraliaIcon />
             <h6 className="text-xl text-shipGray-500 tracking-xl font-medium uppercase mt-12">
               Australia
@@ -71,7 +71,7 @@ export const About = () => {
               text="see location"
             />
           </div>
-          <div className="w-full flex flex-col items-center text-center mt-12 lg:mt-0">
+          <div className="w-full flex flex-col items-center text-center mt-12 lg:mt-0 lg:w-1/3">
             <UnitedKingdomIcon />
             <h6 className="text-xl text-shipGray-500 tracking-xl font-medium uppercase mt-12">
               United Kingdom
