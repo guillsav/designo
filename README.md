@@ -19,5 +19,5 @@ https://dsgno.netlify.app/
 
 - TypeScript
 - React
-- TailwindCSS
+- Tailwindcss
 
