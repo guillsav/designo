@@ -5,8 +5,8 @@ Designo is a project coming from the list of front-end challenges on Front-end M
 
 1. Either fork or download the app and open the folder in the terminal.
 2. Install all dependencies using the `yarn install` command.
-3. Start the web server using the `yarn start` local command. The app will be served at http://localhost:3000/
-4. Go to http://localhost:3000/ in your browser and start searching for movies.
+3. Start the web server using the `yarn start` local command. The app will be served at http://localhost:3000
+4. Go to http://localhost:3000 in your browser and start searching for movies.
 
 ## Live Project
 
